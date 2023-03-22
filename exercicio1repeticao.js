@@ -4,7 +4,7 @@ function calcular_fatorial() {
    let fatorial = 1
 
    do {
-      let x = input('Digite um valor que não seja zero')
+      let x = prompt ('Digite um valor que não seja zero')
    } while (x < 1)
 
    while (x > 0) {
@@ -15,4 +15,4 @@ function calcular_fatorial() {
 
 }
 
-console.log (calcular_fatorial)
+calcular_fatorial()

@@ -1,5 +1,5 @@
 function numero_primo() {
-    let numero = ("Digite um número: ")
+    let numero = prompt ("Digite um número: ")
     let valor = 1
     let divisores = 0
 
@@ -15,10 +15,10 @@ function numero_primo() {
         console.log ("Esse número é primo")
        }
        else {
-        escreva ("Esse número não é primo")
+        console.log ("Esse número não é primo")
        }
 
     }
   }
 
-  console.log (numero_primo)
+  numero_primo()

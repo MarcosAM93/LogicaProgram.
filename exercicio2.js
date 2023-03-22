@@ -13,5 +13,5 @@ function notas_aluno() {
   console.log(media)
 }
 
-console.log (notas_aluno)
+notas_aluno()
 
